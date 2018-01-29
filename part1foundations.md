@@ -16,6 +16,7 @@
 * 논리적 소프트웨어 구조와 물리적 소프트웨어 구조의 차이점
 
 * configuration management, version control, build systems
+
 * C/C++ 과 Microsoft Visual Studio tips
 
 
