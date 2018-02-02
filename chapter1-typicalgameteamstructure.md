@@ -179,6 +179,7 @@ FPS와 유사하지만 메인 케릭터의 능력이나 이동 방식에 더 강
 * F.A.K.K.2 \(Retual\)
 
 * Medal of Honor : Allied assult
+
 * Medal of Honor : Pacific Assult
 
 직접 소스코드를 다운로드 받아서 빌드해 보고 디버깅 해보면서 게임 엔진이 정말 어떻게 동작하는지 배울 수 있다.
@@ -231,7 +232,7 @@ Yake : Ogre 기반, 완전 기능 갗춘 최신 게임 엔진
 
 Crystal , Irrlicnt 등
 
-### 1.6 런타임 게임 아키텍쳐
+# 1.6 런타임 게임 아키텍쳐
 
 게임 엔진도 계층적으로 구성된다. \(선형 의존\)\(하위 계층이 상위 계층에 의존할 때\)
 
@@ -244,6 +245,52 @@ Crystal , Irrlicnt 등
 하드웨어, 다른 상위 계층 소프트웨어 에서 불필요한 하드웨어 요인들을 신경쓰지 않음.
 
 ### 1.6.3. 운영체제
+
+MS 윈도우는 '선점혈 멀티태스킹' 이용한 시간 기반 기법
+
+다른 프로그램의 존재를 염두해 두어야 한다.
+
+콘솔 환경에서는 게임이 하드웨어를 완전 독점 가능. \(지금은 라이브 SNS 등으로 작업 전환 가능\)
+
+### 1.6.4 서드파티 SDK 와 미들웨어
+
+### 1.6.4.1 자료구조와 알고리즘
+
+* STL\(C++ 표준 템플릿 라이브러리\)
+* STLPort \(좀더 다양한 플렛폼을 위한 STL\)
+* STL 스타일로 설례된 강역 자료구조와 알고리즘 라이브러리
+* Boost \(STL 스타일 자료구조/알고리즘 라이브러리\)
+* Loki \(Generic Programming Template Library\)
+
+### 1.6.4.2 그래픽스
+
+* Glide : Voodoo 용 3D 그래픽 SDK
+* OpenGL : 멀티 플렛폼 기반 그래픽스 SDK
+* DirectX : 마이크로소프트 개발 SDK, OpenGL 과 양대 산맥
+* libgcm : 소니 플레이스테이션3 RSX 그래픽 하드웨어용 SDK
+* Edge : 너티독 & 소니 개발 한 플레이스테이션3용 고성능 렌더링/애니메이션 엔진
+
+### 1.6.4.3 충돌과 물리
+
+* Havok : 고성능 물리, 충돌 엔진
+* PhysX : NVidia 개발한 고성능 물리/충돌 엔진
+* Open Dynamics Engine\(ODE\) : 오픈소스 물리/충돌 엔진
+
+### 1.6.4.4 케릭터 애니메이션
+
+* Granny : RAD Games 개발한 SDK. 모델링 툴에 대한 export 도구 및 Runtime Library / Runtime Animation System 제공
+* Havok animation : 물리와 애니메이션 간 보완을 위해 만든 SDK
+* Edge : 너티 독 ICE 팀과 소니 개발 부서 합작해 만든 PS3용 애니메이션 엔진 및 Geometry 처리 엔진
+
+### 1.6.4.5 인공지능
+
+* Kynapse : 길찾기, 정/동적 충돌 회피, 공간 내 취약점 감지 등의 기본적 인공지능 개발 도구 제공\(Gameware Navigation 변경\)
+
+### 1.6.4.6 생체 역학적 케릭터 모델
+
+* 엔트로핀과 유포리아\(Endorphin and Euphoria\) : 인체 움직임을 생체 역학적 모델로 분석해 애니메이션 생성
+
+# 1.6.5 플렛폼 독립적 계층
 
 
 
