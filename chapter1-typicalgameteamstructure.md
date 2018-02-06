@@ -294,11 +294,11 @@ MS 윈도우는 '선점혈 멀티태스킹' 이용한 시간 기반 기법
 
 ### 1.6.5 플렛폼 독립적 계층
 
- 하드웨어, 드라이버, OS, 기타 외부 SDK 등의 바로 위에서 동작
+하드웨어, 드라이버, OS, 기타 외부 SDK 등의 바로 위에서 동작
 
- 엔진의 다른 부분들이 하드웨어를 신경쓰지 않게 하는 역할을 맡는다.
+엔진의 다른 부분들이 하드웨어를 신경쓰지 않게 하는 역할을 맡는다.
 
- 서로 다른 플랫폼 에서도 일관성 있는 동작을 보장한다.
+서로 다른 플랫폼 에서도 일관성 있는 동작을 보장한다.
 
 ### 1.6.6 코어 시스템
 
@@ -309,30 +309,31 @@ MS 윈도우는 '선점혈 멀티태스킹' 이용한 시간 기반 기법
 
 ### 1.6.7 자원 관리자
 
- 집중되고 일관성 있는 방식 : 언리얼의 패키지, 오우거 엔진 ResourceManager
+집중되고 일관성 있는 방식 : 언리얼의 패키지, 오우거 엔진 ResourceManager
 
- 산발적인 방식 : 직접 파일이나 디스크에서 원하는 자원을 가져와야 하는 경우
+산발적인 방식 : 직접 파일이나 디스크에서 원하는 자원을 가져와야 하는 경우
 
 ### 1.6.8 렌더링 엔진
 
 #### 1.6.8.1 로우레벨 렌더링
 
- Geometry Primitive 를 가능한 빠르게 그리면서 다양한 방식을 지원하는 데 중점
+Geometry Primitive 를 가능한 빠르게 그리면서 다양한 방식을 지원하는 데 중점
 
- 화면의 가시성 등 추상적인 문제에는 관여하지 않는다.
+화면의 가시성 등 추상적인 문제에는 관여하지 않는다.
 
 * 그래픽 디바이스 인터페이스 : 그래픽 SDK 사용 인터페이스
 * 기타 렌더러 구성 요소 : geometry primitive 처리, viewport, materials, dynamic light system, shading, etc...
 
 #### 1.6.8.2 장면 그래프와 추려내기 최적화 \(SceneGraph & Culling optimization\)
 
- frustum culling \(절두체 추려내기\) : 작은 월드에서 사용
+frustum culling \(절두체 추려내기\) : 작은 월드에서 사용
 
- PVS\(potentiaully visible set\) : 보일 가능성이 있는 집합
+PVS\(potentiaully visible set\) : 보일 가능성이 있는 집합
 
- 예\) 오거엔진 plug-and-play scene graph architecture
+예\) 오거엔진 plug-and-play scene graph  
+ architecture
 
-#### 1.6.8.3 시각 효과
+#### 1.6.8.3 시각 효과 \(Visual Effects\)
 
 * 파티클 시스템
 * 데칼 시스템
@@ -343,8 +344,6 @@ MS 윈도우는 '선점혈 멀티태스킹' 이용한 시간 기반 기법
  풀 스크린 후처리 효과의 예시 : HDR, Bloom, Full Screen Anti-aliasing, color correction, color shift, bleach bypass, saturation, de-saturation
 
 #### 1.6.8.4 전단부 \(Front End\)
-
- 
 
 
 
