@@ -330,8 +330,7 @@ frustum culling \(절두체 추려내기\) : 작은 월드에서 사용
 
 PVS\(potentiaully visible set\) : 보일 가능성이 있는 집합
 
-예\) 오거엔진 plug-and-play scene graph  
- architecture
+예\) 오거엔진 plug-and-play scene graph architecture
 
 #### 1.6.8.3 시각 효과 \(Visual Effects\)
 
@@ -356,17 +355,24 @@ PVS\(potentiaully visible set\) : 보일 가능성이 있는 집합
 
 ### 1.6.9 프로파일링과 디버깅 툴
 
- 녹화/재생 기능, 메모리&성능 통계, 게임 메뉴 혹은 콘솔
+녹화/재생 기능, 메모리&성능 통계, 게임 메뉴 혹은 콘솔
 
- Intel VTune, IBM Quantify & Purify, Compuware Bounds Checker
+Intel VTune, IBM Quantify & Purify, Compuware Bounds Checker
 
- 자체 프로파일링 & 디버깅 기능 구현시 포함되는 기능들
+자체 프로파일링 & 디버깅 기능 구현시 포함되는 기능들
 
 * 코드를 수동으로 소모시간 측정 해주는 시스템
 * 실시간 프로파일링 수치 표시 기능
 * 성능 값을 export 하는 기능 \(엑셀, 텍스트 등\)
-* 게임 엔진, 각 하구 시스템 사용 메모리 측정
-* 
+* 게임 엔진, 각 하부 시스템 사용 메모리 측정
+* 메모리 사용량, 최고 사용량, 메모리 누수 통계 등을 게임이 종료 혹은 플레이 중에 export 하는 기능
+
+* 디버그 메시지를 코드 또는 출력 필요한 항복마다 켜고 끄는 기능을 가진 툴. 자세한 정보 조정 가능
+
+* 게임 플레이 녹화/재생 하는 기능
+
+### 1.6.10 충돌과 물리
+
 
 
 
