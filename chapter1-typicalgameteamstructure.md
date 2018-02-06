@@ -373,7 +373,23 @@ Intel VTune, IBM Quantify & Purify, Compuware Bounds Checker
 
 ### 1.6.10 충돌과 물리
 
+ 강체 역학 \(rigid body\)
 
+ 강체의 움직임\(운동학\), 힘과 회전력\(역학\)
+
+ 충돌하게 되면 물리 로직, 제약 만족 로직 \(constraint satifaction\) 의 일부로 처리 
+
+ 대체로 외부 SDK 를 사용한다. \(예 : Havok, PhysX\)
+
+ 오픈소스 물리/충돌 엔진 : Open Dynamic Engine \(ODE\), I-Collide, V-Collide, RAPID
+
+### 1.6.11 애니메이션
+
+* 스프라이트/텍스쳐 애니메이션
+* 강체 계층\(rigid doby hierachy\) 애니메이션
+* 뼈대\(skeletal\) 애니메이션
+* 정점 \(vertex\) 애니메이션
+* 모트 타겟\(morph target\)
 
 
 
