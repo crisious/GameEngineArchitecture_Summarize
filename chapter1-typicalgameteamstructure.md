@@ -341,9 +341,13 @@ PVS\(potentiaully visible set\) : 보일 가능성이 있는 집합
 * 동적 그림자
 * 풀 스크린 후처리 효과
 
- 풀 스크린 후처리 효과의 예시 : HDR, Bloom, Full Screen Anti-aliasing, color correction, color shift, bleach bypass, saturation, de-saturation
+  풀 스크린 후처리 효과의 예시 : HDR, Bloom, Full Screen Anti-aliasing, color correction, color shift, bleach bypass, saturation, de-saturation
 
-#### 1.6.8.4 전단부 \(Front End\)
+#### 1.6.8.4 전단부 \(Front End\) {#front-end}
 
+* 게임 HUD \(Heads-Up Display\)
+* 게임 메뉴, 콘솔, 기타 개발 툴 \(최종 배포본 에는 포함되지 않을 수 있음\)
+* 캐릭터 인벤토리 등의 그래픽 유저 인터페이스 \(GUI\)
+* 
 
 
