@@ -52,5 +52,20 @@
 
 ### 2.1.5 TortoiseSVN 설치
 
+ http://tortoise.tigris.org
 
+ SVN Checkout 에서 SVN Repository URL 입력해서 연결
 
+ 만약 계정이 필요한 경우 Authentication 에서 설정
+
+### 2.1.6 파일 버전, 업데이트, 커밋
+
+ 업데이트(update) : 다른 작업자가 올린 내용을 받아온다.
+
+ 커밋(commit) : 내가 작업한 내용을 올린다.
+
+ 디프(Diff) : 저장소에 있는 내용과 서로 비교한다.
+
+ 버전이 없음(non-versioned) : 아직 저장소에 올라가지 않은 내용
+
+ 찾을수 없음(missing) : 
