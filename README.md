@@ -1,4 +1,5 @@
-# Game Engine Architecture arrangement
+# 게임 엔진 아키텍쳐 책 정리
+## 한글 번역본 '게임 엔진 아키텍쳐' 책과 해외 원서 서적 2nd 를 같이 보면서 정리 요약.
 
 
 
